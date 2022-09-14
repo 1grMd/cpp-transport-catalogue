@@ -1,0 +1,131 @@
+{
+	"base_requests": [
+		{
+			"type": "Stop",
+			"name": "Толстопальцево",
+			"latitude": 55.611087,
+			"longitude": 37.20829,
+			"road_distances": { "Марушкино": 3900 }
+		},
+		{
+			"type": "Stop",
+			"name": "Марушкино",
+			"latitude": 55.595884,
+			"longitude": 37.209755,
+			"road_distances": {
+				"Рассказовка": 9900,
+				"Марушкино": 100
+			}
+		},
+		{
+			"type": "Bus",
+			"name": "256",
+			"stops": [ "Бирюлево Западное", "Бирюсинка", "Универсам", "Бирюлево Товарная", "Бирюлево Пассажирская", "Бирюлево Западное" ],
+			"is_roundtrip": true
+		},
+
+		{
+			"type": "Stop",
+			"name": "Рассказовка",
+			"latitude": 55.632761,
+			"longitude": 37.333324,
+			"road_distances": { "Марушкино": 9500 }
+		},
+		{
+			"type": "Stop",
+			"name": "Бирюлево Западное",
+			"latitude": 55.574371,
+			"longitude": 37.6517,
+			"road_distances": {
+				"Россошанская улица": 7500,
+				"Бирюсинка": 1800,
+				"Универсам": 2400
+			}
+		},
+		{
+			"type": "Stop",
+			"name": "Бирюсинка",
+			"latitude": 55.581065,
+			"longitude": 37.64839,
+			"road_distances": { "Универсам": 750 }
+		},
+		{
+			"type": "Stop",
+			"name": "Универсам",
+			"latitude": 55.587655,
+			"longitude": 37.645687,
+			"road_distances": {
+				"Россошанская улица": 5600,
+				"Бирюлево Товарная": 900
+			}
+		},
+		{
+			"type": "Stop",
+			"name": "Бирюлево Товарная",
+			"latitude": 55.592028,
+			"longitude": 37.653656,
+			"road_distances": { "Бирюлево Пассажирская": 1300 }
+		},
+		{
+			"type": "Stop",
+			"name": "Бирюлево Пассажирская",
+			"latitude": 55.580999,
+			"longitude": 37.659164,
+			"road_distances": { "Бирюлево Западное": 1200 }
+		},
+		{
+			"type": "Bus",
+			"name": "828",
+			"stops": [ "Бирюлево Товарная", "Универсам", "Россошанская улица", "Бирюлево Западное", "Бирюлево Товарная" ],
+			"is_roundtrip": true
+		},
+		{
+			"type": "Stop",
+			"name": "Россошанская улица",
+			"latitude": 55.585579,
+			"longitude": 37.635757,
+			"road_distances": {}
+		},
+		{
+			"type": "Stop",
+			"name": "Пражская: ",
+			"latitude": 55.611678,
+			"longitude": 37.603831,
+			"road_distances": {}
+		}
+	],
+	"render_settings": {
+		"width": 600,
+		"height": 600,
+		"padding": 30,
+		"stop_radius": 5,
+		"line_width": 14,
+		"bus_label_font_size": 20,
+		"bus_label_offset": [ 7, 15 ],
+		"stop_label_font_size": 20,
+		"stop_label_offset": [ 7, -3 ],
+		"underlayer_color": [ 255, 255, 255, 0.85 ],
+		"underlayer_width": 3,
+		"color_palette": [
+			"green",
+			[ 255, 160, 0 ],
+			"red"
+		]
+	},
+	"stat_requests": [
+		{
+			"id": 1,
+			"type": "Map"
+		},
+		{
+			"id": 2,
+			"type": "Stop",
+			"name": "Россошанская улица"
+		},
+		{
+			"id": 3,
+			"type": "Bus",
+			"name": "256"
+		}
+	]
+}
