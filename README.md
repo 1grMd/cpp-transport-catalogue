@@ -1,7 +1,7 @@
 # Transport Catalogue
 Транспортный справочник.
 Реализует функционал транспортного справочника с  возможностью визуализации карты маршрутов в формате SVG.  
-![Image alt](https://github.com/1grMd/cpp-transport-catalogue/blob/main/transport-catalogue/map.svg)  
+![Image alt](https://github.com/1grMd/cpp-transport-catalogue/blob/main/example/example.png)  
 Данные поступают в формате JSON-объекта. Его верхнеуровневая структура:
 {
   "base_requests": [ ... ],
